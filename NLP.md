@@ -52,10 +52,10 @@ The application has become diverse with `supervised, unsupervised, and semi-supe
   - Use in the database of genomics which have vast amount of textual content.
   - Search engines for genomics collate and present relevant information as per use queries
 
-### Pros and Cons of Topic Modelling
-|Pros|Cons|
-|---|---|
-|
+<!-- ### Pros and Cons of Topic Modelling -->
+<!-- |Pros|Cons| -->
+<!-- |---|---| -->
+<!-- | -->
 
 ---
 
@@ -103,6 +103,8 @@ Building a knowledge graph requires a variety of NLP techniques and employing mo
 - `Income Tax Calculations`
 - `Financial Reporting`
 
+![Images of Knowledge Graphs example](./assets/harry-potter-knowledge-graph-e1626867892612.png "Knowledge Graphs example")
+
 ---
 
 ## 5. Words Cloud
@@ -110,6 +112,21 @@ Sometimes known as a `tag cloud` is data visualization approach. Words from a te
 
 Before Applying other NLP, use this to describe the findings
 
+### Use Case of Words Cloud
+- `Understanding client issues`
+  - Quickly visualize what is the trend of the product
+- `Quickening business actions`
+  - Make the talking points appear the most frequently
+- `Analyzing employee sentiment`
+  - Know about point in which the discussion rate is high
+- `Simplifying technical data`
+  - Share the finding in a more accessible and engaging way
+- `Searching for patterns in data`
+  - Easy spotting of the data that are overlapping and overpowering
+- `Search engine optimization`
+  - Helps in SEO algorithms in searching for website
+
+![Image of Word Cloud example](./assets/download.png "Words Cloud example")
 ---
 
 ## 6. Named Entity Recognition
