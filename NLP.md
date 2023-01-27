@@ -151,15 +151,47 @@ Two sub-step to named entity recognition:-
 ---
 
 ## 7. Sentiment Analysis
+Emotion analysis is especially useful in circumstances where consumers offer their ideas and suggestions, sucha as consumer polls, ratings, and debates on social media.
+
+The simplest emotion analysis is a three-point scale (positive/negative/neutral). The output can be a statistical score that can be divided into as many categories as needed on a more complex cases.
+
+Can use supervised and unsupervised algorithms and the most frequent controlled model for interpreting is `Naive Bayes`
+
+Sentiment-labeled training corpus is required, a model can be trained and then utilized to define the sentiment. Can use also `random forest or gradient boosting`
+
+### Use Case of Sentiment Analysis
+- `Social media`
+- `Customer service`
+- `Market research`
 
 ---
 
 ## 8. Text Summarization
+Text summarization can be done in two ways:-
+- `Extraction`
+  - Deleting bits from the text, this can create a rundown
+- `Abstraction`
+  - produce summaries by constructing new text that conveys the essence of the original content
+
+### Different NLP Algorithms for text summarization
+- `LexRank`
+- `TextRank`
+- `Latent Semantic Analysis`
 
 ---
 
 ## 9. Bag of Words
+Represent a text as a bag (multiset) of words, negleting syntax and even word order while keeping multiplicity. The `bag of words` generates a matrix of incidence. These word frequencies or instance are then employed as features in the training of a classifier.
+
+### Drawback
+The worst is the lack of semantic meaning and context, as well as the fact that such terms are appropriately weighted
 
 ---
 
 ## 10. Tokenization
+It's the process of breaking down the text into sentences and phrases. It break down text into smaller chunks while discarding some characters, such as punctuation
+
+### Major Disadvantage
+it works better with some language and worse with other such as tonal language like Mandarin or Vietnamese.
+
+
